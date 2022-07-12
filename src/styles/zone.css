@@ -1,0 +1,9 @@
+.containZone{
+    width: 150px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap:10px ;
+    
+}
+

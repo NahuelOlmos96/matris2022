@@ -1,0 +1,12 @@
+.odsContain{
+    width: 100%;
+    height: 100%;
+}
+img {
+    object-fit: fill;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+

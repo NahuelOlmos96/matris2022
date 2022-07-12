@@ -1,0 +1,50 @@
+.matrisHeader {
+    
+    height: auto;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 60px;
+    grid-column-gap: 10px;
+
+    
+
+}
+.posicion{
+    background-color: red;
+      
+}
+
+p{  
+    height: auto;
+    display: grid;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    color: black;
+   
+    
+    
+
+}
+
+.listods{
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    margin: 0px;
+    padding: 0;
+
+}
+
+.hContein{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+    border: 3px solid rgb(63, 60, 60);
+    
+    
+
+}
