@@ -1,12 +1,7 @@
 body {
-  background-image: url("./imagenes/MatrizlaUTNylosODS.png");
-  
-  background-size: 100%;
-  background-attachment: fixed;
-  background-color:  black;
-  background-repeat: no-repeat;
-  width: 1250px;
+  background-color: white;
 
+  margin: 0;
 }
 
 code {

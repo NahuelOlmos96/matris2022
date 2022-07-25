@@ -1,6 +1,6 @@
 import React from 'react';
 import { NewLinkOds } from './NewLinkods';
-
+import proyectoArea from "../imagenes/areaproyecto.png"
 
 import "../styles/LinkOdsConponent.css" 
 
@@ -37,9 +37,8 @@ export const LinkOdsCoponent = (props) =>{
 
         <div  className='matrisHeader'  >
             <div className='hContein'>
-            <p>ÁREA</p>
-            <p>PROYECTO</p>
-            </div>
+            <img className='imgProyectoArea' src={proyectoArea} alt="" />
+            </div> 
             
             <div className='listods'>
 
