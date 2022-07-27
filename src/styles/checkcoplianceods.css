@@ -98,11 +98,12 @@
 .contenedorDatosProyecto{
     display: grid;
     grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
 
 }
 .contenedorDatosProyectoIzq{
     background-color: rgb(233,239,244);
-    height: 500px;
+    height: 100%;
     margin: 5px;
     overflow-y: scroll;
 }
