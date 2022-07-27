@@ -27,11 +27,14 @@ import logofacu from "../imagenes/logoUTN.png"
 import home from "../imagenes/iconosredes/home.png"
 
 
+
  
 
 export const CheckOds = (props) =>{
 
-    const[openModal, desplegar, contraer] = UseModal()
+    const[openModal, desplegar, contraer] = UseModal();
+
+   
 
     return(
         <div className='containCheck'>
@@ -74,24 +77,67 @@ export const CheckOds = (props) =>{
             cotraer={contraer}>
                     
                 <div className='cabezeraDelDesplegable'>
-                    <img src={gifOds} alt="" />
-                    <img className='imagenesDerecha' src={logofacu} alt="" />
-                    <img className='imagenesDerecha' src={logoRI} alt="" />
+                    <img className='cabezeraImagnenIzq' src={gifOds} alt="" />
+                    <img className='cabezeraImagenesDer' src={logofacu} alt="" />
+                    <img className='cabezeraImagenesDer' src={logoRI} alt="" />
                 </div>
+
                 <div className='contenedorBotonCierre'>
                     <button onClick={contraer} className='botonCierre'>
                         <img className='home' cl src={home} alt="" />
-                    </button>  
-                     
-
+                    </button>        
                 </div>        
-                
 
-                
+                   {/*  datos  */}         
+                <div className='contenedorDatosProyecto'>
+
+                    <div className='contenedorDatosProyectoIzq'>
+
+                        <div onClick={desplegar}  className='nombreProyecto'>
+            
+                        <div className='proyect proyectoDespleganble'>{props.proyect}</div>
+                        <div className='zone zoneDesplegable'> {<Zone 
+                                logo ={props.logo} 
+                                />}
+                        </div>
+                                
+                        
+                        </div>
+                        <h4 className='titulo'>objetivo</h4>
+                        <p className='objetivos'>
+                            {props.objetivo}
+                        </p>
+                        <h4 className='titulo '> descripción</h4>
+                        <p className='descripcion'>
+                            {props.descripcion}
+                        </p>
+
+                    </div>
+
+                    <div className='contenedorDatosProyectoDer'>
+
+                        <div className='contenedorDatosProyectoDerMarcoDesarollo'>
+                            <h4 className='titulo marco'>marco de desarrollo del proyecto</h4>
+                            
+                            <div className={`' checkMarco ${props.investigaciones} '`}></div>
+                            <h5 className='checkMarcoText'>Investigaciones de Departamento</h5>
+                            <div className={`' checkMarco ${props.grupo} '`}></div>
+                            <h5 className='checkMarcoText' >Grupo de Investigaciónes</h5>
+                            <div className={`' checkMarco ${props.centro} '`} ></div>
+                            <h5 className='checkMarcoText '>Centro de Investigación</h5>
+
+                        </div>
+                        <div className='contenedorDependencia'>
+                            <h5 className=' titulo marco tituloDependencia '  >dependencia</h5>
+                            <div className='dependencia' >
+                              {props.dependencia}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
             </Desplegar>
-
-                
         </div>
     );
 } 

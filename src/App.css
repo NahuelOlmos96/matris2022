@@ -2,3 +2,6 @@
     background: linear-gradient( rgb(0,72,124),rgb(24,41,69));
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}

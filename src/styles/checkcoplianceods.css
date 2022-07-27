@@ -13,9 +13,9 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 50px;
-
+    width: 55px;
     opacity: 0;
+    
     
     
 
@@ -28,6 +28,7 @@
 .listodscheck{
     display: grid;
     grid-template-columns: repeat(17, 1fr);
+    
     border-bottom: solid 2px white;
     margin: 0px;
     padding: 0;
@@ -53,14 +54,20 @@
 .cabezeraDelDesplegable{
     display: grid;
     grid-template-columns: auto 25% 25%;
-    height: auto;
+    grid-template-rows: 70px;
     
 }
-
-.imagenesDerecha{
-    width: 180px;
-    display: grid;
-    margin: 20px auto;
+.cabezeraImagnenIzq{
+    height: 60px;
+    width: auto;
+    padding: 5px 0px 5px 100px;
+    
+}
+.cabezeraImagenesDer{
+    width: auto;
+    height: 50px;
+    display: grid;  
+    padding-top: 10px;
 }
 
 .contenedorBotonCierre{
@@ -85,6 +92,112 @@
     height: 30px;
 }
 
+
+/* contenido de la ventana desplegable*/
+
+.contenedorDatosProyecto{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+.contenedorDatosProyectoIzq{
+    background-color: rgb(233,239,244);
+    height: 500px;
+    margin: 5px;
+    overflow-y: scroll;
+}
+.nombreProyecto{
+    background-color: rgba(255, 0, 0, 0);
+    background-image: url(../imagenes/fajalarga\ proyectos.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 80px;
+    padding-top: 5px;
+    width: 713px;
+}
+
+.zoneDesplegable{
+     padding-left: 130px;
+}
+
+.proyectoDespleganble{
+
+    font-size: 14px !important;
+    margin-left: 10px !important;
+}
+.objetivos , .descripcion{
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    margin: 5px 20px;
+    color: rgb(52, 51, 51);
+    text-align: justify;
+    
+}
+
+ .titulo{
+    color:rgb(0, 137, 204);
+    margin: 30px 0px 0px 0px;
+    text-transform: capitalize;
+}
+
+.contenedorDatosProyectoDerMarcoDesarollo{
+    background: linear-gradient(to right , rgb(0,202,255),rgb(0,61,149));
+    width: auto;
+    height: 180px;
+    margin: 120px 5px 50px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: 40px;
+}
+.marco{
+    color: white;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+    grid-column: 1/3;
+}
+.checkMarcoText{
+    color: white;
+    margin: auto 0px;
+}
+
+.checkMarco{
+    margin: 0px auto;
+    width: 35px;
+    height: 35px;
+    border: solid white 2px;
+
+}
+.aprobado{
+    
+    background-image: url(../imagenes/iconosodsx17/ODS16.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenedorDependencia{
+    border-top:solid rgb(0,202,255)  3px;
+    border-bottom:solid rgb(0,202,255) 3px;
+    width: auto;
+    height: auto;
+    padding:10px 10px;
+}
+
+.tituloDependencia{
+    background: linear-gradient(to right , rgb(0,202,255),rgb(0,61,149));
+}
+
+.dependencia{
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
 .zone{
     color: black;
     display: grid;
@@ -96,13 +209,9 @@
 
 .proyect{
     color: white;
-    height: 50px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    text-align: start;
     font-size: 9px;
-    margin: 10px auto;
+    margin-top: 7px;
      
 }
 

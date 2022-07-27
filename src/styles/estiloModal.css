@@ -9,6 +9,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    
 }
 
 .alerta{
@@ -16,9 +17,18 @@
     padding: 10px;
     width: 80%;
     height: 90%;
+    animation-name: animacionDesplegable;
+    animation-duration: 1s;
+    position: relative;
+    animation-timing-function: ease;
 }
-
+@keyframes animacionDesplegable {
+    0%{opacity: 0; top: -20px; left:-20px}
+    100%{opacity: 1; top: 0px; left: 0px}
+    
+}
 .modal-open{
     
     display: flex;
+    
 }
