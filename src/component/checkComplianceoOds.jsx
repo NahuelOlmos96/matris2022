@@ -52,23 +52,23 @@ export const CheckOds = (props) =>{
             </button>
             
             <div className='listodscheck'>
-                <div className={`' ods n1 ${props.ods1} '`}><img src={ODS1} alt="" /></div>
-                <div className={`' ods n2 ${props.ods2} '`}><img src={ODS2} alt="" /></div>
-                <div className={`' ods n3 ${props.ods3} '`}><img src={ODS3} alt="" /></div>
-                <div className={`' ods n4 ${props.ods4} '`}><img src={ODS4} alt="" /></div>
-                <div className={`' ods n5 ${props.ods5} '`}><img src={ODS5} alt="" /></div>
-                <div className={`' ods n6 ${props.ods6} '`}><img src={ODS6} alt="" /></div>
-                <div className={`' ods n7 ${props.ods7} '`}><img src={ODS7} alt="" /></div>
-                <div className={`' ods n8 ${props.ods8} '`}><img src={ODS8} alt="" /></div>
-                <div className={`' ods n9 ${props.ods9} '`}><img src={ODS9} alt="" /></div>
-                <div className={`' ods n10 ${props.ods10} '`}><img src={ODS10} alt="" /></div>
-                <div className={`' ods n11 ${props.ods11} '`}><img src={ODS11} alt="" /></div>
-                <div className={`' ods n12 ${props.ods12} '`}><img src={ODS12} alt="" /></div>
-                <div className={`' ods n13 ${props.ods13} '`}><img src={ODS13} alt="" /></div>
-                <div className={`' ods n14 ${props.ods14} '`}><img src={ODS14} alt="" /></div>
-                <div className={`' ods n15 ${props.ods15} '`}><img src={ODS15} alt="" /></div>
-                <div className={`' ods n16 ${props.ods16} '`}><img src={ODS16} alt="" /></div>
-                <div className={`' ods n17 ${props.ods17} '`}><img src={ODS17} alt="" /></div>
+                <div className={`' ods n1 ${props.ods1} '`}><img className='imagenCheck' src={ODS1} alt="" /></div>
+                <div className={`' ods n2 ${props.ods2} '`}><img className='imagenCheck' src={ODS2} alt="" /></div>
+                <div className={`' ods n3 ${props.ods3} '`}><img className='imagenCheck' src={ODS3} alt="" /></div>
+                <div className={`' ods n4 ${props.ods4} '`}><img className='imagenCheck' src={ODS4} alt="" /></div>
+                <div className={`' ods n5 ${props.ods5} '`}><img className='imagenCheck' src={ODS5} alt="" /></div>
+                <div className={`' ods n6 ${props.ods6} '`}><img className='imagenCheck' src={ODS6} alt="" /></div>
+                <div className={`' ods n7 ${props.ods7} '`}><img className='imagenCheck' src={ODS7} alt="" /></div>
+                <div className={`' ods n8 ${props.ods8} '`}><img className='imagenCheck' src={ODS8} alt="" /></div>
+                <div className={`' ods n9 ${props.ods9} '`}><img className='imagenCheck' src={ODS9} alt="" /></div>
+                <div className={`' ods n10 ${props.ods10} '`}><img className='imagenCheck' src={ODS10} alt="" /></div>
+                <div className={`' ods n11 ${props.ods11} '`}><img className='imagenCheck' src={ODS11} alt="" /></div>
+                <div className={`' ods n12 ${props.ods12} '`}><img className='imagenCheck' src={ODS12} alt="" /></div>
+                <div className={`' ods n13 ${props.ods13} '`}><img className='imagenCheck' src={ODS13} alt="" /></div>
+                <div className={`' ods n14 ${props.ods14} '`}><img className='imagenCheck' src={ODS14} alt="" /></div>
+                <div className={`' ods n15 ${props.ods15} '`}><img className='imagenCheck' src={ODS15} alt="" /></div>
+                <div className={`' ods n16 ${props.ods16} '`}><img className='imagenCheck' src={ODS16} alt="" /></div>
+                <div className={`' ods n17 ${props.ods17} '`}><img className='imagenCheck' src={ODS17} alt="" /></div>
                 
             </div>
 

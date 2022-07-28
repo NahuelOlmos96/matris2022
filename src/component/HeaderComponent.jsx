@@ -3,6 +3,7 @@ import '../styles/HeaderContainer.css'
 import logoRI from "../imagenes/logoR.I.png"
 import gifOds from "../imagenes/giftitularmatrizf-ods.gif"
 import logofacu from "../imagenes/logoUTN.png"
+import "../styles/checkcoplianceods.css" 
 
 import inst from "../imagenes/iconosredes/insta.png"
 import face from "../imagenes/iconosredes/face.png"
@@ -46,14 +47,32 @@ export const HeaderComponent = () =>{
                         <button onClick={contraerInstitucional} className='botonCierre'>
                             <img className='home' cl src={home} alt="" />
                         </button> 
-                    </div>      
+                    </div>
+                </div>      
 
-                    <h1>OBJETIVOS DE LA MATRIZ INTERACTIVA</h1>
+                 <div className='contenedorDatosProyecto'>
 
-                    <h1>
-                        Vincular actividades y proyectos universitarios con el/los ODS de mayor impacto, proporcionando ideas para la acción, generando oportunidades de desarrollo e
-                        incentivando el compromiso por el cumplimiento de cada uno de los 17 Objetivos de Desarrollo Sostenible.
-                    </h1>
+                    <div className='contenedorDatosProyectoIzq'>
+                        <p>
+                            <h4 className='titulo tiludoHead'>Misión</h4>
+
+                            <p className='descripcion'>
+
+                                A través de la implementación de estrategias de vinculación, la Secretaría de Relaciones
+                                Institucionales busca promover gestiones que propicien acrecentar e intensificar las relaciones e
+                                interacción de la Universidad con la sociedad; trabajar para la articulación de los sujetos, agencias
+                                y recursos con la Institución; incentivar la vinculación con los distintos sectores generando
+                                procesos de integración que permitan el crecimiento sustentable. En este sentido mediante la
+                                Matriz Universitaria ODS / UTN - FRC se apunta a vincular actividades y proyectos de esta Casa de
+                                Estudios con los Objetivos de Desarrollo Sostenible; motivando así ideas para la acción, generando
+                                oportunidades de desarrollo e incentivando el compromiso por el cumplimiento de las metas y
+                                acciones que integran la Agenda 2030.
+                            </p>
+
+                        </p>
+                            
+                    </div>
+
                 </div>      
 
             </Desplegar>
@@ -73,11 +92,25 @@ export const HeaderComponent = () =>{
                         <button onClick={contraerInstitucional} className='botonCierre'>
                             <img className='home' cl src={home} alt="" />
                         </button> 
-                    </div>      
+                    </div>
+                </div>      
 
-                   
-                </div>        
+                 <div className='contenedorDatosProyecto'>
 
+                    <div className='contenedorDatosProyectoIzq'>
+                        <p>
+                            <h4 className='titulo tiludoHead'>OBJETIVOS DE LA MATRIZ INTERACTIVA</h4>
+
+                            <p className='descripcion'>
+                                Vincular actividades y proyectos universitarios con el/los ODS de mayor impacto, proporcionando ideas para la acción, generando oportunidades de desarrollo e
+                                incentivando el compromiso por el cumplimiento de cada uno de los 17 Objetivos de Desarrollo Sostenible.
+                            </p>
+
+                        </p>
+                            
+                    </div>
+
+                </div>
             </Desplegar>
 
 

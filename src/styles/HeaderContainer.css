@@ -127,3 +127,6 @@
     position: relative;
     animation-timing-function: ease;
 }
+.tiludoHead{
+    text-align: start;
+}

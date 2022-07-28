@@ -13,7 +13,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 55px;
+    width: 80px;
     opacity: 0;
     
     
@@ -23,6 +23,10 @@
 
 .check{
     opacity: 1;
+
+}
+.imagenCheck{
+    width: 70px;
 }
 
 .listodscheck{
@@ -98,12 +102,12 @@
 .contenedorDatosProyecto{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 100%;
+    height: 90%;
 
 }
 .contenedorDatosProyectoIzq{
     background-color: rgb(233,239,244);
-    height: 95%;
+    height: 90%;
     margin: 5px;
     overflow-y: scroll;
 }
