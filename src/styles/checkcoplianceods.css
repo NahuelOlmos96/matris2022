@@ -16,9 +16,6 @@
     width: 80px;
     opacity: 0;
     
-    
-    
-
 }
 
 .check{
@@ -26,7 +23,7 @@
 
 }
 .imagenCheck{
-    width: 70px;
+    width: 60px;
 }
 
 .listodscheck{
@@ -39,7 +36,7 @@
 }
 
 .zonaProyectConteincheck{
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(255, 0, 0, 0)  ; 
     border: none;
     cursor: pointer;
     text-decoration: none;
@@ -51,10 +48,12 @@
     width: 100% ;
     height: 76px;
     margin: 0;
-    border-bottom: solid 2px white;
+    border-radius: 0px 50px 50px 0px;
    
 }
-
+.zonaProyectConteincheck:hover{
+    box-shadow: 10px 10px 10px rgb(51, 51, 51);
+}
 .cabezeraDelDesplegable{
     display: grid;
     grid-template-columns: auto 25% 25%;

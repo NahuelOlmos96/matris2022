@@ -7,4 +7,9 @@ img {
     margin: 0;
     padding: 0;
 }
+.imagenOds:hover{
+    width: 90px;
+    position:absolute ;
+    z-index: ;
 
+}
