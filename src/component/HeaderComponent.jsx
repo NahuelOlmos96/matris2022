@@ -44,7 +44,7 @@ export const HeaderComponent = () =>{
                     
                 <div >
                     <div className='contenedorBotonCierre'>
-                        <button onClick={contraerInstitucional} className='botonCierre'>
+                        <button onClick={contraerMatriz} className='botonCierre'>
                             <img className='home' cl src={home} alt="" />
                         </button> 
                     </div>
