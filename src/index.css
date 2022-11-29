@@ -1,7 +1,9 @@
 
 
 body {
-  background-color: white;
+  height: auto;
+  background: linear-gradient( rgb(0,72,124),rgb(24,41,69));
+  
 
   margin: 0;
 }
